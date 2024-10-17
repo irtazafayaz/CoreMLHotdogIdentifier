@@ -13,7 +13,7 @@ struct ContentView: View {
     @StateObject private var camera = CameraModel()
     
     var body: some View {
-        CameraView(camera: camera)
+        CameraView()
     }
 }
 
